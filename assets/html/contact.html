@@ -9,14 +9,47 @@
     <h1>Contact</h1>
 
     <form action="">
-      <label for="fname">First name</label>
-      <input type="text" name="fname" />
-      <label for="sname">First name</label>
-      <input type="text" name="sname" />
-      <input type="text" name="fname" />
-      <input type="text" name="fname" />
+      <label for="fname">Nume</label>
+      <input type="text" name="first_name" />
+      <br /><br />
+      <label for="sname">Prenume</label>
+      <input type="text" name="last_name" />
+      <br />
+      <br />
 
-      <input type="submit" value="" />
+      <label for="car">Selecteaza Culoarea Masinii</label>
+      <select name="car_fav_color" id="car">
+        <option value="red">Rosu</option>
+        <option value="red">Verde</option>
+        <option value="red">Albastra</option>
+      </select>
+      <br /><br />
+
+      <input type="radio" id="bronco" name="fav_car" value="ford_bronco" />
+      <label for="bronco">Bronco</label>
+      <br />
+
+      <input type="radio" id="astoria" name="fav_car" value="magnum_astoria" />
+      <label for="astoria">Astoria</label>
+
+      <br /><br />
+
+      <p>Please select your favorite Web language:</p>
+      <input type="radio" id="html" name="fav_language" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="css" name="fav_language" value="CSS" />
+      <label for="css">CSS</label><br />
+
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript"
+      />
+      <label for="javascript">JavaScript</label>
+      <br />
+      <br />
+      <input type="submit" value="submit" />
     </form>
   </body>
 </html>
